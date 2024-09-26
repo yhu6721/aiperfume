@@ -1,0 +1,374 @@
+/* 确保页面没有额外的间距 */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* 禁止水平滚动 */
+}
+
+/* 设置首页背景图片的容器 */
+.container_index {
+    position: relative;
+    width: 100vw; /* 背景容器宽度为视口宽度 */
+    height: 700vh; /* 高宽比设为7:1 */
+    background-image: url('web/homepage.png'); /* 将此处替换为你的图片路径 */
+    background-size: contain; /* 让图片保持比例显示，不裁剪 */
+    background-position: top center; /* 图片居中且从顶部开始显示 */
+    background-repeat: no-repeat; /* 防止图片重复 */
+    background-attachment: scroll; /* 使背景图片随页面滚动 */
+}
+
+/* 透明按钮样式 */
+.start-customization1 {
+    position: absolute;  /* 使按钮在背景图上绝对定位 */
+    top: 9.3%;  /* 距离顶部9.3% */
+    left: 13.5%;  /* 距离左侧13.5% */
+    transform: translate(-50%, -50%);
+    padding: 30px 64px;
+    font-size: 18px;
+    background-color: transparent;  /* 半透明背景颜色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 鼠标悬停效果 */
+.start-customization1:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬停时显示浅黑色背景 */
+    border-color: #fff; /* 悬停时边框变为白色 */
+}
+
+/* 透明按钮样式 */
+.start-customization2 {
+    position: absolute;  /* 使按钮在背景图上绝对定位 */
+    top: 82.9%;  /* 距离顶部82.9% */
+    left: 17.35%;  /* 距离左侧17.35% */
+    transform: translate(-50%, -50%);
+    padding: 28px 105px;
+    font-size: 18px;
+    background-color: transparent;  /* 半透明背景颜色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 鼠标悬停效果 */
+.start-customization2:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬停时显示浅黑色背景 */
+    border-color: #fff; /* 悬停时边框变为白色 */
+}
+
+
+/* 设置定制背景图片的容器 */
+.container_customization {
+    position: relative;
+    width: 100vw; /* 背景容器宽度为视口宽度 */
+    height: 200vh; /* 高宽比设为2:1 */
+    background-image: url('web/customization.png'); /* 将此处替换为你的图片路径 */
+    background-size: contain; /* 让图片保持比例显示，不裁剪 */
+    background-position: top center; /* 图片居中且从顶部开始显示 */
+    background-repeat: no-repeat; /* 防止图片重复 */
+    background-attachment: scroll; /* 使背景图片随页面滚动 */
+}
+
+    /* 透明按钮样式 */
+.next_step {
+    position: absolute;  /* 使按钮在背景图上绝对定位 */
+    top: 17.13%;
+    left: 12.1%;
+    transform: translate(-50%, -50%);
+    padding: 32px 66px;
+    font-size: 18px;
+    background-color: transparent;  /* 半透明背景颜色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 鼠标悬停效果 */
+.next_step:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬停时显示浅黑色背景 */
+    border-color: #fff; /* 悬停时边框变为白色 */
+}
+
+/* 设置下一步背景图片的容器 */
+.container_next_step {
+    position: relative;
+    width: 100vw; /* 背景容器宽度为视口宽度 */
+    height: 200vh; /* 高宽比设为2:1 */
+    background-image: url('web/next_step.png'); /* 将此处替换为你的图片路径 */
+    background-size: contain; /* 让图片保持比例显示，不裁剪 */
+    background-position: top center; /* 图片居中且从顶部开始显示 */
+    background-repeat: no-repeat; /* 防止图片重复 */
+    background-attachment: scroll; /* 使背景图片随页面滚动 */
+}
+
+/* 透明按钮样式 */
+.hierarchy {
+    position: absolute;  /* 使按钮在背景图上绝对定位 */
+    top: 93.3%;
+    left: 14.13%;
+    transform: translate(-50%, -50%);
+    padding: 30px 64px;
+    font-size: 18px;
+    background-color: transparent;  /* 半透明背景颜色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 鼠标悬停效果 */
+.hierarchy:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬停时显示浅黑色背景 */
+    border-color: #fff; /* 悬停时边框变为白色 */
+}
+
+/* 透明按钮样式 */
+.colorButton1 {
+    position: absolute;  /* 使按钮在背景图上绝对定位 */
+    top: 25.55%;
+    left: 22.4%;
+    transform: translate(-50%, -50%);
+    padding: 114px 188px;
+    font-size: 18px;
+    background-color: transparent;  /* 半透明背景颜色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 鼠标悬停效果 */
+.colorButton1:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* 鼠标悬停时显示浅黑色背景 */
+    border-color: #fff; /* 悬停时边框变为白色 */
+}
+/* 点击后的状态 1 样式 */
+.colorButton1.clicked {
+    background-color: rgba(0, 0, 0, 0.1); /* 灰色背景 */
+}
+
+/* 点击后的状态 2 样式 */
+.colorButton1.unclicked {
+    background-color: transparent; /* 再次变回透明背景 */
+}
+
+
+
+/* 透明按钮样式 */
+.colorButton2 {
+    position: absolute;  /* 使按钮在背景图上绝对定位 */
+    top: 25.55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 114px 188px;
+    font-size: 18px;
+    background-color: transparent;  /* 半透明背景颜色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 鼠标悬停效果 */
+.colorButton2:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* 鼠标悬停时显示浅黑色背景 */
+    border-color: #fff; /* 悬停时边框变为白色 */
+}
+/* 点击后的状态 1 样式 */
+.colorButton2.clicked {
+    background-color: rgba(0, 0, 0, 0.1); /* 灰色背景 */
+}
+
+/* 点击后的状态 2 样式 */
+.colorButton2.unclicked {
+    background-color: transparent; /* 再次变回透明背景 */
+}
+
+
+/* 透明按钮样式 */
+.colorButton3 {
+    position: absolute;  /* 使按钮在背景图上绝对定位 */
+    top: 25.55%;
+    left: 77.6%;
+    transform: translate(-50%, -50%);
+    padding: 114px 188px;
+    font-size: 18px;
+    background-color: transparent;  /* 半透明背景颜色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 鼠标悬停效果 */
+.colorButton3:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* 鼠标悬停时显示浅黑色背景 */
+    border-color: #fff; /* 悬停时边框变为白色 */
+}
+/* 点击后的状态 1 样式 */
+.colorButton3.clicked {
+    background-color: rgba(0, 0, 0, 0.1); /* 灰色背景 */
+}
+
+/* 点击后的状态 2 样式 */
+.colorButton3.unclicked {
+    background-color: transparent; /* 再次变回透明背景 */
+}
+
+
+/* 透明按钮样式 */
+.colorButton4 {
+    position: absolute;  /* 使按钮在背景图上绝对定位 */
+    top: 40.8%;
+    left: 29.3%;
+    transform: translate(-50%, -50%);
+    padding: 98px 288px;
+    font-size: 18px;
+    background-color: transparent;  /* 半透明背景颜色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 鼠标悬停效果 */
+.colorButton4:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* 鼠标悬停时显示浅黑色背景 */
+    border-color: #fff; /* 悬停时边框变为白色 */
+}
+/* 点击后的状态 1 样式 */
+.colorButton4.clicked {
+    background-color: rgba(0, 0, 0, 0.1); /* 灰色背景 */
+}
+
+/* 点击后的状态 2 样式 */
+.colorButton4.unclicked {
+    background-color: transparent; /* 再次变回透明背景 */
+}
+
+
+/* 透明按钮样式 */
+.colorButton5 {
+    position: absolute;  /* 使按钮在背景图上绝对定位 */
+    top: 40.8%;
+    left: 70.7%;
+    transform: translate(-50%, -50%);
+    padding: 98px 288px;
+    font-size: 18px;
+    background-color: transparent;  /* 半透明背景颜色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 鼠标悬停效果 */
+.colorButton5:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* 鼠标悬停时显示浅黑色背景 */
+    border-color: #fff; /* 悬停时边框变为白色 */
+}
+/* 点击后的状态 1 样式 */
+.colorButton5.clicked {
+    background-color: rgba(0, 0, 0, 0.1); /* 灰色背景 */
+}
+
+/* 点击后的状态 2 样式 */
+.colorButton5.unclicked {
+    background-color: transparent; /* 再次变回透明背景 */
+}
+
+
+
+/* 设置层次背景图片的容器 */
+.container_hierarchy {
+    position: relative;
+    width: 100vw; /* 背景容器宽度为视口宽度 */
+    height: 100vh; /* 高宽比设为2:1 */
+    background-image: url('web/hierarchy.png'); /* 将此处替换为你的图片路径 */
+    background-size: contain; /* 让图片保持比例显示，不裁剪 */
+    background-position: top center; /* 图片居中且从顶部开始显示 */
+    background-repeat: no-repeat; /* 防止图片重复 */
+    background-attachment: scroll; /* 使背景图片随页面滚动 */
+}
+
+/* 透明按钮样式 */
+.recommandation {
+    position: absolute;  /* 使按钮在背景图上绝对定位 */
+    top: 74.75%;
+    left: 79.57%;
+    transform: translate(-50%, -50%);
+    padding: 40px 126px;
+    font-size: 18px;
+    background-color: transparent;  /* 半透明背景颜色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 鼠标悬停效果 */
+.recommandation:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬停时显示浅黑色背景 */
+    border-color: #fff; /* 悬停时边框变为白色 */
+}
+
+/* 设置配方背景图片的容器 */
+.container_recommandation {
+    position: relative;
+    width: 100vw; /* 背景容器宽度为视口宽度 */
+    height: 230vh; /* 高宽比设为2:1 */
+    background-image: url('web/recommandation.png'); /* 将此处替换为你的图片路径 */
+    background-size: contain; /* 让图片保持比例显示，不裁剪 */
+    background-position: top center; /* 图片居中且从顶部开始显示 */
+    background-repeat: no-repeat; /* 防止图片重复 */
+    background-attachment: scroll; /* 使背景图片随页面滚动 */
+}
+
+/* 透明按钮样式 */
+.success {
+    position: absolute;  /* 使按钮在背景图上绝对定位 */
+    top: 34.28%;
+    left: 10.35%;
+    transform: translate(-50%, -50%);
+    padding: 38px 78px;
+    font-size: 18px;
+    background-color: transparent;  /* 半透明背景颜色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* 鼠标悬停效果 */
+.success:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* 鼠标悬停时显示浅黑色背景 */
+    border-color: #fff; /* 悬停时边框变为白色 */
+}
+
+/* 设置成功背景图片的容器 */
+.container_success {
+    position: relative;
+    width: 100vw; /* 背景容器宽度为视口宽度 */
+    height: 100vh; /* 高宽比设为2:1 */
+    background-image: url('web/success.png'); /* 将此处替换为你的图片路径 */
+    background-size: contain; /* 让图片保持比例显示，不裁剪 */
+    background-position: top center; /* 图片居中且从顶部开始显示 */
+    background-repeat: no-repeat; /* 防止图片重复 */
+    background-attachment: scroll; /* 使背景图片随页面滚动 */
+}
